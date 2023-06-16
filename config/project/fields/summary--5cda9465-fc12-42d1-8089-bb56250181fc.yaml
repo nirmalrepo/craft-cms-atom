@@ -1,0 +1,19 @@
+columnSuffix: ankypusz
+contentColumnType: text
+fieldGroup: 7d26258e-4b89-4919-8cc2-8291cdabc2c2 # Blog
+handle: summary
+instructions: 'Summaries should be one or two sentences.'
+name: Summary
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 1
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

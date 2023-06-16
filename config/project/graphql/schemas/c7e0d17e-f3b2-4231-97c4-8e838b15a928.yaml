@@ -1,0 +1,24 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.0b25bb8f-56b1-48e7-baf4-a58132594af2:read' # Craft Tutorial
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.34ea7480-e2c8-479d-a162-2ccfb809204e:read' # Blog
+  - 'entrytypes.b8884871-a391-4511-a1f0-97cfb40d4b4a:read' # Post
+  - 'volumes.1df4f86f-6971-4fad-98a2-568caecdcecf:read' # Images
+  - 'usergroups.everyone:read'
+  - 'categorygroups.96277707-4d8c-4feb-9bd8-94fa4334ba57:read' # Topics
+  - 'sections.34ea7480-e2c8-479d-a162-2ccfb809204e:edit' # Blog
+  - 'entrytypes.b8884871-a391-4511-a1f0-97cfb40d4b4a:edit' # Post
+  - 'entrytypes.b8884871-a391-4511-a1f0-97cfb40d4b4a:create' # Post
+  - 'entrytypes.b8884871-a391-4511-a1f0-97cfb40d4b4a:save' # Post
+  - 'entrytypes.b8884871-a391-4511-a1f0-97cfb40d4b4a:delete' # Post
+  - 'volumes.1df4f86f-6971-4fad-98a2-568caecdcecf:edit' # Images
+  - 'volumes.1df4f86f-6971-4fad-98a2-568caecdcecf:create' # Images
+  - 'volumes.1df4f86f-6971-4fad-98a2-568caecdcecf:save' # Images
+  - 'volumes.1df4f86f-6971-4fad-98a2-568caecdcecf:delete' # Images
+  - 'categorygroups.96277707-4d8c-4feb-9bd8-94fa4334ba57:edit' # Topics
+  - 'categorygroups.96277707-4d8c-4feb-9bd8-94fa4334ba57:save' # Topics
+  - 'categorygroups.96277707-4d8c-4feb-9bd8-94fa4334ba57:delete' # Topics

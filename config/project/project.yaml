@@ -1,0 +1,61 @@
+dateModified: 1686888641
+elementSources:
+  craft\elements\Category:
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'group:96277707-4d8c-4feb-9bd8-94fa4334ba57' # Topics
+      tableAttributes:
+        - link
+      type: native
+email:
+  fromEmail: nirmal@downing.nz
+  fromName: 'Craft Tutorial'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
+meta:
+  __names__:
+    0b25bb8f-56b1-48e7-baf4-a58132594af2: 'Craft Tutorial' # Craft Tutorial
+    1df4f86f-6971-4fad-98a2-568caecdcecf: Images # Images
+    5cda9465-fc12-42d1-8089-bb56250181fc: Summary # Summary
+    6e5b1061-a38f-4278-ab4a-31b299226c2c: 'Post Categories' # Post Categories
+    7d26258e-4b89-4919-8cc2-8291cdabc2c2: Blog # Blog
+    9a44e506-1ed1-481e-8a71-c36b1fb24397: 'Post Content' # Post Content
+    25d316e7-3c3d-401c-84f2-723ce9c9ac9e: Image # Image
+    34ea7480-e2c8-479d-a162-2ccfb809204e: Blog # Blog
+    64c3a4a3-7fd1-4b3b-84e5-02db07f4a746: Image # Image
+    530e9559-97f2-41e5-9bed-ff02db2dec7d: 'Feature Image' # Feature Image
+    78228cdc-1f33-4b0f-8e63-9f8a6a5ca2c5: Common # Common
+    96277707-4d8c-4feb-9bd8-94fa4334ba57: Topics # Topics
+    ae4e59fb-0baa-4491-beda-4f9c5725b07b: 'Craft Tutorial' # Craft Tutorial
+    afcf4ae6-2b3e-43a2-b711-f9eaa9f92152: Text # Text
+    b8884871-a391-4511-a1f0-97cfb40d4b4a: Post # Post
+    c7e0d17e-f3b2-4231-97c4-8e838b15a928: 'Public Schema' # Public Schema
+    f158d7d3-f855-4bce-bfd1-f9ff9aaaee38: Simple # Simple
+    faf9aeff-4f54-4faa-89b9-f32be92e9e61: Text # Text
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: pro
+  live: true
+  name: 'Craft Tutorial'
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

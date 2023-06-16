@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Craft Tutorial'
+primary: true
+siteGroup: ae4e59fb-0baa-4491-beda-4f9c5725b07b # Craft Tutorial
+sortOrder: 1
